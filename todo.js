@@ -36,9 +36,16 @@ function ajreq(){
     //.....2 checkboxes experemented here....
     const oxi = document.querySelectorAll('.ox');
     console.log(oxi)
+    var count1=0
     oxi.forEach(boxi => {
         boxi.addEventListener('click', function displu() {
-        console.log('2 clicked');
+        if(boxi.checked==true){
+            count1=count1+1
+        }
+        else{
+            count1=count1-1
+        }
+        if (count1==2){console.log("congratulations"+2+"jobs completed")}
         }); 
         });
     //....experements end
