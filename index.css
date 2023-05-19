@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{background-image:url(../images/kathakali.jpg);
+    background-size: cover;
+} */
+#head2{color:white;}
+.textall{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.text{
+    list-style-type: square;}
+.formlog{
+    margin-top: 100px;
+    margin-left: 500px;
+    
+    background-color: beige;
+    border: 2px red solid;
+    width:85%
+    
+    
+}
+#logbut{
+ width:100%   
+}
